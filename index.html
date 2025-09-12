@@ -135,8 +135,8 @@
     <div id="popup" class="popup">
         <h3>Congratulations! You have won:</h3>
         <img id="popupImage" src="" alt="Winning Image" style="width: 100px; height: 100px; margin: 10px 0;">
-        <div style="font-size: 24px; font-weight: bold; color: #000000; margin: 10px 0 20px 0;">5000 SAR</div>
-        <div class="whatsapp-icon" onclick="window.location.href='https://wa.me/+966509246308'">
+<!--         <div style="font-size: 24px; font-weight: bold; color: #000000; margin: 10px 0 20px 0;">5000 SAR</div>
+        <div class="whatsapp-icon" onclick="window.location.href='https://wa.me/+966509246308'"> -->
             <i class="fa-brands fa-whatsapp"></i>
 
         </div>
@@ -167,7 +167,7 @@
         window.onload = spinWheel;
 
         function showPopup() {
-            const winningImage = document.getElementById('label5').querySelector('img').src;
+            const winningImage = document.getElementById('label4').querySelector('img').src;
             document.getElementById('popupImage').src = winningImage;
             document.getElementById('popup').style.display = 'block';
             document.getElementById('lightingEffect').style.display = 'block';
@@ -193,6 +193,7 @@
 </body>
 
 </html>
+
 
 
 
